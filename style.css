@@ -22,7 +22,6 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap:nowrap;
 }
 
 .logo img{
@@ -52,7 +51,7 @@ nav .nav-links{
 .nav-links a{
     text-decoration:none;
     color:#b8408a;
-    padding: 0.1rem 0.5rem;
+    padding: 0.2rem 0.5rem;
     border-radius: 999px;
     font-weight: bold;
 }
@@ -99,15 +98,18 @@ nav .nav-links{
   font-family:Knewave,sans-serif;
 }
 
-.hero button{
-  width: fit-content;
+.hero-button{
+  display: inline-block;
+  background-color:white ;
   color: #ef3aaa;
   font-size: medium;
   padding: 1rem 1.2rem;
   border-radius: 999px;
-  border: 2px solid transparent;
+  border: 2px solid #ef3aaa;
   font-weight: bold;
+  text-decoration: none;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .about-us {
