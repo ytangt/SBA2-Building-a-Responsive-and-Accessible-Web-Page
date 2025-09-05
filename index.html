@@ -24,17 +24,17 @@
         <div class="logo">
           <img
             src="assets/image/DragonFly_Dance_Studio.png"
-            alt="Welcome to Our Website"
+            alt="Dragonfly Arts Academy Logo"
           />
         </div>
-        <h1 class="site-title">Accessible Design Co.</h1>
+        <span class="site-title">Dragonfly Arts Academy</span>
         <!--Nav Bar-->
         <nav role="navigation" aria-label="Main Navigation">
           <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -43,7 +43,7 @@
     <!-- Main Section -->
     <main>
       <!-- Hero Section -->
-      <section class="hero" aria-label="Hero Section">
+      <section class="hero" id="home" aria-label="Hero Section">
         <div class="container">
           <h1>Discover the <span class="Joy">Joy </span>of Dance and Music</h1>
           <p>
@@ -55,7 +55,7 @@
       </section>
 
       <!-- About Us Section -->
-      <section class="about-us">
+      <section class="about-us" id="about-us" aria-label="About Us">
         <div class="container">
           <h2>About Us</h2>
           <p>
@@ -68,7 +68,7 @@
       </section>
 
       <!-- Service Section -->
-      <section class="services" aria-label="Serviece Section">
+      <section class="services" id="services" aria-label="Service Section">
         <div class="container">
           <h2>Our Services</h2>
           <div class="services-grid">
@@ -104,7 +104,7 @@
       </section>
 
       <!-- Form section -->
-      <section class="contact" aria-label="contact form">
+      <section class="contact" id="contact" aria-label="contact form">
         <div class="container">
           <form aria-describedby="contact-form-intro">
             <div id="contact-form-intro" class="contact-form-intro">
@@ -129,8 +129,8 @@
             <input
               class="contact-input"
               id="subject"
-              type="subject"
-              placeholder="book a coming dance class!"
+              type="text"
+              placeholder="Book a coming dance class!"
             />
             <label for="message">Message</label>
             <textarea
@@ -143,7 +143,6 @@
             <button
               class="contact-submit-button"
               type="submit"
-              onclick="submitForm()"
             >
               Send Message 💗
             </button>
@@ -166,13 +165,11 @@
     </div>
 
     <div class="social-links">
-      <a href="#" aria-label="Facebook"
-        ><img src="assets/image/facebook.jpg" alt="Facebook"
+      <a href="https://Facebook.com"><img src="assets/image/facebook.jpg" alt="Facebook"
       /></a>
-      <a href="#" aria-label="Instagram"
-        ><img src="assets/image/instagram.jpg" alt="Instagram"
+      <a href="https://instagram.com"><img src="assets/image/instagram.jpg" alt="Instagram"
       /></a>
-      <a href="#" aria-label="X"><img src="assets/image/x.webp" alt="X" /></a>
+      <a href="https://x.com"><img src="assets/image/x.webp" alt="X" /></a>
     </div>
   </footer>
 </html>
