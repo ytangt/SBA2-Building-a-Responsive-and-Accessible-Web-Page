@@ -1,117 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessible Design Co..</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dragonfly Arts Academy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header Section -->
     <header>
-        <div class="header-container">
-            <!-- Logo & Site title -->
-            <div class="logo">
-                <img src="assets/image/DragonFly_Dance_Studio.png" alt="Welcome to Our Website" >
-            </div>
-            <h1 class="site-title">Accessible Design Co.</h1>
-            <!--Nav Bar-->
-            <nav role="navigation" aria-label="Main Navigation">
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+      <div class="header-container">
+        <!-- Logo & Site title -->
+        <div class="logo">
+          <img
+            src="assets/image/DragonFly_Dance_Studio.png"
+            alt="Welcome to Our Website"
+          />
         </div>
+        <h1 class="site-title">Accessible Design Co.</h1>
+        <!--Nav Bar-->
+        <nav role="navigation" aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Main Section -->
     <main>
-        <!-- Hero Section -->
-        <section class="hero" aria-label="Hero Section">
-            <div class="container">
-                <h1>Discover the <span class="Joy">Joy </span>of Dance and Music</h1>
-                <p> Experience the beauty of Chinese traditional dance and classical music at Dragonfly Arts Academy.</p>
-                <button aria-label="Scroll to classes schedule">Let's Dance!</button>
-             </div>
-         </section>  
+      <!-- Hero Section -->
+      <section class="hero" aria-label="Hero Section">
+        <div class="container">
+          <h1>Discover the <span class="Joy">Joy </span>of Dance and Music</h1>
+          <p>
+            Experience the beauty of Chinese traditional dance and classical
+            music at Dragonfly Arts Academy.
+          </p>
+          <button aria-label="Scroll to classes schedule">Let's Dance!💗</button>
+        </div>
+      </section>
 
-        <!-- About Us Section -->
-        <section class="about-us">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>Dragonfly Arts Academy is dedicated to teaching the beauty of Chinese traditional dance and classical music. Our mission is to inspire creativity, confidence, and cultural appreciation through professional training.
-                </p>
-            </div>
-        </section>
-         
-        <!-- Service Section -->
-        <section class="services" aria-label="Serviece Section">
-            <div class="container">
-                <h2>Our Services</h2>
-                <div class="services-grid">
-                    <article class="service-item">
-                        <img src="assets/image/service1.jpg" alt="Classical Dance Training">
-                        <h3>Classical Dance Training</h3>
-                        <p>Professional training in Chinese traditional and classical dance styles for all ages.</p>
-                    </article>
-                    <article class="service-item">
-                        <img src="assets/image/service2.jpg" alt="Music Lessons">
-                        <h3>Music Lessons</h3>
-                        <p>Learn classical music and traditional instruments with experienced instructors.</p>
-                    </article>
-                    <article class="service-item">
-                        <img src="assets/image/service3.webp" alt="Workshops & Events">
-                        <h3>Workshops & Events</h3>
-                        <p>Join cultural workshops and public performances to showcase your talent.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
+      <!-- About Us Section -->
+      <section class="about-us">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>
+            Dragonfly Arts Academy is dedicated to teaching the beauty of
+            Chinese traditional dance and classical music. Our mission is to
+            inspire creativity, confidence, and cultural appreciation through
+            professional training.
+          </p>
+        </div>
+      </section>
 
-        
-        <!-- Form section -->
-        <section class="contact" aria-label="contact form">
-            <div class="container">
-                <form aria-describedby="contact-form-intro">
-                    <div id="contact-form-intro" class="contact-form-intro">Curious about our classes? Let’s connect—fill in your details and start your dance journey! 🤙</div>
-                    <label for="name">Full name</label> 
-                    <input class="contact-input" id="name" type="text" placeholder="Yanan Tang" />
-                    <label for="email">Email</label>
-                    <input class="contact-input" id="email" type="email" placeholder="yanant.work@gmail.com" />
-                    <label for="subject">Subject</label>
-                    <input class="contact-input" id="subject" type="subject" placeholder="book a coming dance class!" />
-                    <label for="message">Message</label>
-                    <textarea class="contact-textarea" id="message" rows="4" cols="50" placeholder="Your message..."></textarea>
-                    <button class="contact-submit-button" type="submit" onclick="submitForm()">Send Message 💗</button>
-                </form>
+      <!-- Service Section -->
+      <section class="services" aria-label="Serviece Section">
+        <div class="container">
+          <h2>Our Services</h2>
+          <div class="services-grid">
+            <article class="service-item">
+              <img
+                src="assets/image/service1.jpg"
+                alt="Classical Dance Training"
+              />
+              <h3>Classical Dance Training</h3>
+              <p>
+                Professional training in Chinese traditional and classical dance
+                styles for all ages.
+              </p>
+            </article>
+            <article class="service-item">
+              <img src="assets/image/service2.jpg" alt="Music Lessons" />
+              <h3>Music Lessons</h3>
+              <p>
+                Learn classical music and traditional instruments with
+                experienced instructors.
+              </p>
+            </article>
+            <article class="service-item">
+              <img src="assets/image/service3.webp" alt="Workshops & Events" />
+              <h3>Workshops & Events</h3>
+              <p>
+                Join cultural workshops and public performances to showcase your
+                talent.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Form section -->
+      <section class="contact" aria-label="contact form">
+        <div class="container">
+          <form aria-describedby="contact-form-intro">
+            <div id="contact-form-intro" class="contact-form-intro">
+              Curious about our classes? Let’s connect—fill in your details and
+              start your dance journey! 🤙
             </div>
-        </section>
+            <label for="name">Full name</label>
+            <input
+              class="contact-input"
+              id="name"
+              type="text"
+              placeholder="Yanan Tang"
+            />
+            <label for="email">Email</label>
+            <input
+              class="contact-input"
+              id="email"
+              type="email"
+              placeholder="yanant.work@gmail.com"
+            />
+            <label for="subject">Subject</label>
+            <input
+              class="contact-input"
+              id="subject"
+              type="subject"
+              placeholder="book a coming dance class!"
+            />
+            <label for="message">Message</label>
+            <textarea
+              class="contact-textarea"
+              id="message"
+              rows="4"
+              cols="50"
+              placeholder="Your message..."
+            ></textarea>
+            <button
+              class="contact-submit-button"
+              type="submit"
+              onclick="submitForm()"
+            >
+              Send Message 💗
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
-</body>
-<!-- Footer section -->
-<footer>
-    <p class="copyright">
-      &copy; Accessible Design Co. All rights reserved.
-    </p>
+  </body>
+  <!-- Footer section -->
+  <footer>
+    <p class="copyright">&copy; Dragonfly Art Academy. All rights reserved.</p>
 
     <div class="contact-info">
-      <p>Email: <a href="mailto:info@dragonflyacademy.com">info@dragonflyacademy.com</a></p>
+      <p>
+        Email:
+        <a href="mailto:info@dragonflyacademy.com">info@dragonflyacademy.com</a>
+      </p>
       <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
       <p>Address: 123 Dance Street, Arts City</p>
     </div>
 
     <div class="social-links">
-      <a href="#" aria-label="Facebook"><img src="assets/image/facebook.jpg" alt="Facebook"></a>
-      <a href="#" aria-label="Instagram"><img src="assets/image/instagram.jpg" alt="Instagram"></a>
-      <a href="#" aria-label="X"><img src="assets/image/x.webp" alt="X"></a>
+      <a href="#" aria-label="Facebook"
+        ><img src="assets/image/facebook.jpg" alt="Facebook"
+      /></a>
+      <a href="#" aria-label="Instagram"
+        ><img src="assets/image/instagram.jpg" alt="Instagram"
+      /></a>
+      <a href="#" aria-label="X"><img src="assets/image/x.webp" alt="X" /></a>
     </div>
-
   </footer>
 </html>

@@ -192,6 +192,10 @@ label {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+::placeholder {
+  color: #4b4a4a;
+}
+
 .contact-submit-button {
   background-color: black;
   width: fit-content;
@@ -203,7 +207,9 @@ label {
   font-weight: bold;
   cursor: pointer;
 }
- 
+
+
+
 footer {
   background-color: black; 
   color: white;
