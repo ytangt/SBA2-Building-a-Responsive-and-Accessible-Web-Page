@@ -1,7 +1,7 @@
 # Dragonfly Arts Academy Website
 
 This project is a responsive, multi-section webpage built as part of a web design assignment.  
-The site is designed for a **fictitious company** called **Dragonfly Dance Studio** and demonstrates semantic HTML, responsive layouts, and accessibility best practices.
+The site is designed for a **fictitious company** called **Dragonfly Arts Academy** and demonstrates semantic HTML, responsive layouts, and accessibility best practices.
 
 ---
 
